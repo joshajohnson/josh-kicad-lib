@@ -1,0 +1,92 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AHC1G04
+D Not Gate
+$ENDCMP
+#
+$CMP AD8302
+D Gain Phase Detector
+$ENDCMP
+#
+$CMP AD8319
+D Log Power Detector
+$ENDCMP
+#
+$CMP ADC-15-4+
+D MiniCircuits Directional Coupler
+$ENDCMP
+#
+$CMP ASTXR-12-19.200MHz
+D TCXO
+$ENDCMP
+#
+$CMP F2923
+D 2 Port High Isol RF Switch
+$ENDCMP
+#
+$CMP Ferrite_Bead_PWR
+D Ferrite bead
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP Filter_LFCN
+D MiniCircuits Filter
+$ENDCMP
+#
+$CMP HMC313
+D RF Amp
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LP5912
+D 500 mA LDO
+$ENDCMP
+#
+$CMP MAX2871
+D  PLL 23.5-6000MHz
+$ENDCMP
+#
+$CMP MIC5366-1.8
+D Voltage Regulator
+$ENDCMP
+#
+$CMP PE42440
+D 4 Throw RF Switch
+$ENDCMP
+#
+$CMP PE4257
+D 2 Throw RF Switch
+$ENDCMP
+#
+$CMP PE43711
+D RF Attenuator
+$ENDCMP
+#
+$CMP SKY12347-362LF
+D RF Attenuator
+$ENDCMP
+#
+$CMP SN74LVC1G139
+D 2 to 4 Binary Decoder
+$ENDCMP
+#
+$CMP TRF37A75
+D RF Amp
+$ENDCMP
+#
+$CMP TVL755P
+D 500 mA LDO
+$ENDCMP
+#
+$CMP VREF
+D Power flag
+K power-flag
+$ENDCMP
+#
+#End Doc Library
