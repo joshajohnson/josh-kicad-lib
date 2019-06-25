@@ -4,6 +4,10 @@ $CMP 74AHC1G04
 D Not Gate
 $ENDCMP
 #
+$CMP 74LVC2G17
+D Dual Schmitt Trigger Buffer
+$ENDCMP
+#
 $CMP 93C46B
 D Serial EEPROM, 93 Series, 5.0V, DIP-8/SOIC-8
 K EEPROM memory Microwire
@@ -82,6 +86,12 @@ $CMP LP5912
 D 500 mA LDO
 $ENDCMP
 #
+$CMP LTD-5623Ax
+D Double 7 segment Blue LED common anode SMD mount
+K display LED 7-segment
+F https://docs.broadcom.com/docs/AV02-1589EN
+$ENDCMP
+#
 $CMP MAX2871
 D  PLL 23.5-6000MHz
 $ENDCMP
@@ -142,6 +152,12 @@ $ENDCMP
 #
 $CMP PE43711
 D RF Attenuator
+$ENDCMP
+#
+$CMP RN
+D ResistorNetwork
+K resistor simulation
+F ~
 $ENDCMP
 #
 $CMP SKY12347-362LF
