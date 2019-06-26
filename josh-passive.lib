@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Ferrite_Bead_PWR
+#
+DEF Ferrite_Bead_PWR FB 0 0 N Y 1 F N
+F0 "FB" -150 25 50 V V C CNN
+F1 "Ferrite_Bead_PWR" 150 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 w
+X ~ 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R RN 0 0 N Y 4 F N
+F0 "RN" 0 -100 50 H V C CNN
+F1 "R" 0 0 50 H V C CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+DRAW
+S -100 -40 100 40 0 1 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 8 200 0 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 2 1 P
+X ~ 7 200 0 100 L 50 50 2 1 P
+X ~ 3 -200 0 100 R 50 50 3 1 P
+X ~ 6 200 0 100 L 50 50 3 1 P
+X ~ 4 -200 0 100 R 50 50 4 1 P
+X ~ 5 200 0 100 L 50 50 4 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

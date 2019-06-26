@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Ferrite_Bead_PWR
+D Ferrite bead
+K L ferrite bead inductor filter
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor Network
+F ~
+$ENDCMP
+#
+#End Doc Library
