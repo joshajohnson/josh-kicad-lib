@@ -1,4 +1,4 @@
-(module VSSOP-8_2.9x3.15mm_P0.65 (layer F.Cu) (tedit 5CAC5ADA)
+(module VSSOP-8_2.9x3.15mm_P0.65 (layer F.Cu) (tedit 5D134F5C)
   (attr smd)
   (fp_text reference REF** (at -2.6 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

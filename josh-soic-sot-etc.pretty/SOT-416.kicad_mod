@@ -1,4 +1,4 @@
-(module SOT-416 (layer F.Cu) (tedit 5CB2C93E)
+(module SOT-416 (layer F.Cu) (tedit 5D134F54)
   (descr "SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf")
   (tags SOT-416)
   (attr smd)

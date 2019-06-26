@@ -1,4 +1,4 @@
-(module JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal (layer F.Cu) (tedit 5D105432)
+(module JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal (layer F.Cu) (tedit 5D134B7A)
   (descr "JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
   (tags "connector JST PH top entry")
   (attr smd)
@@ -39,7 +39,7 @@
   (pad 2 smd roundrect (at 1 -2.85) (size 1 3.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at -3.35 2.9) (size 1.5 3.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.166667))
   (pad MP smd roundrect (at 3.35 2.9) (size 1.5 3.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.166667))
-  (model "C:/Users/Josh Johnson/Dropbox/Projects/iCE40-fpga/josh-kicad-lib/josh-3d-models/S2B-PH-SM4-TB.stp"
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/CONN_JST_PH2_SMT.stp
     (offset (xyz 0 -4.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 -180))

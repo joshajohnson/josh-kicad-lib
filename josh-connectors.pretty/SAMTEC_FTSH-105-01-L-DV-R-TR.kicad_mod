@@ -1,4 +1,4 @@
-(module SAMTEC_FTSH-105-01-L-DV-R-TR (layer F.Cu) (tedit 5CAC5574)
+(module SAMTEC_FTSH-105-01-L-DV-R-TR (layer F.Cu) (tedit 5D134BAC)
   (descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
   (tags "Surface mounted pin header SMD 2x05 1.27mm double row")
   (attr smd)
@@ -67,7 +67,7 @@
   (pad 8 smd rect (at 1.95 1.27) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at -1.95 2.54) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 1.95 2.54) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS_USER_3D_MOD}/FTSH-105-01-L-DV-K-TR.stp
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/FTSH-105-01-L-DV-K-TR.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

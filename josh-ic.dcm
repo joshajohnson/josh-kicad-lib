@@ -11,7 +11,6 @@ $ENDCMP
 $CMP FT2232H
 D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
 K USB Double UART FIFO
-F http://www.ftdichip.com/Products/ICs/FT2232H.html
 $ENDCMP
 #
 $CMP ICE40UP5K-SG48ITR

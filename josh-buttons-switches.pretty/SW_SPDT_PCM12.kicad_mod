@@ -1,4 +1,4 @@
-(module SW_SPDT_PCM12 (layer F.Cu) (tedit 5D1330A7)
+(module SW_SPDT_PCM12 (layer F.Cu) (tedit 5D134B0C)
   (descr "Ultraminiature Surface Mount Slide Switch")
   (attr smd)
   (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
@@ -37,12 +37,7 @@
   (pad "" smd rect (at 3.65 1.43) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 3.65 -0.78) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -3.65 -0.78) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/Libraries/3dModels/SW_SPDT_PCM12.step
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "C:/Users/Josh Johnson/Dropbox/Projects/iCE40-fpga/josh-kicad-lib/josh-3d-models/SW_SPDT_PCM12.step"
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-buttons-switches/SW_SPDT_PCM12.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
