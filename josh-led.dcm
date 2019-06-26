@@ -7,9 +7,8 @@ F ~
 $ENDCMP
 #
 $CMP LTD-5623Ax
-D Double 7 segment Blue LED common anode SMD mount
+D Double 7 segment LED common anode
 K display LED 7-segment
-F https://docs.broadcom.com/docs/AV02-1589EN
 $ENDCMP
 #
 #End Doc Library

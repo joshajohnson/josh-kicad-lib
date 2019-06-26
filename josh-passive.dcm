@@ -6,7 +6,7 @@ K L ferrite bead inductor filter
 F ~
 $ENDCMP
 #
-$CMP R
+$CMP RN
 D Resistor Network
 F ~
 $ENDCMP

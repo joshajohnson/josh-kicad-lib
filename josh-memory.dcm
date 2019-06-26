@@ -18,6 +18,12 @@ K SPI DSPI QSPI 8Mbit 2.3V
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
 #
+$CMP MX25V1635FZUI
+D 16Mb Serial Flash Memory, Standard/Dual/Quad SPI
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
 $CMP W25Q32JVZP
 D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, DFN-8
 K flash memory SPI

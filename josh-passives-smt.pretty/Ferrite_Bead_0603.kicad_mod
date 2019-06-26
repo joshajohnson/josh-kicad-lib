@@ -1,4 +1,4 @@
-(module Ferrite_Bead_0603 (layer F.Cu) (tedit 5D134E73)
+(module Ferrite_Bead_0603 (layer F.Cu) (tedit 5D13EE88)
   (descr BLM18KG_S)
   (tags "Ferrite Bead")
   (attr smd)
@@ -20,7 +20,7 @@
   (fp_line (start -0.9 -0.65) (end 0.8 -0.65) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -0.8 0) (size 0.85 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8 0) (size 0.85 1) (layers F.Cu F.Paste F.Mask))
-  (model "C:/Users/Josh Johnson/Dropbox/Projects/iCE40-fpga/josh-kicad-lib/packages3d/josh-passives-smt/BLM18PG121SZ1D.stp"
+  (model ${KIPRJMOD}/../../josh-kicad-lib//packages3d/josh-passives-smt/BLM18PG121SZ1D.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
