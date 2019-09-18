@@ -16,6 +16,11 @@ Rename template files as required
 
 Ready to design your next board!
 
+### Script to generate files
+Thanks to [Silvio](https://twitter.com/silviocesare) for making `setup.sh` which automates the generation of the required files. 
+
+From `josh-kicad-lib` run `./setup.sh version MyProject "Your Name"` which will copy the template directory to hardware/$Version and change the names of template * to MyProject, along with changing the company name of the KiCad files. 
+
 ### Folder Structure
 This should result in a folder structure which looks like the below. If your KiCad project is not two levels below this library, things will not work properly.
 
