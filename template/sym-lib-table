@@ -8,4 +8,5 @@
   (lib (name josh-passive)(type Legacy)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-passive.lib)(options "")(descr ""))
   (lib (name josh-power)(type Legacy)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-power.lib)(options "")(descr ""))
   (lib (name josh-rf)(type Legacy)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-rf.lib)(options "")(descr ""))
+  (lib (name josh-connector)(type Legacy)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-connector.lib)(options "")(descr ""))
 )
