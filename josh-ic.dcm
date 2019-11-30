@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CY7C65632-28LTXCT
+D Cypress 4 Port USB 2.0 Hub
+F https://www.cypress.com/file/114101/download
+$ENDCMP
+#
 $CMP FT2232H
 D FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64
 K USB Double UART FIFO
