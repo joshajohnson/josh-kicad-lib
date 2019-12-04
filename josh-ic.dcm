@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATSAMD21J18A
+D SAMD21 - TQFP / QFN
+$ENDCMP
+#
+$CMP ATSAMD21J18A-C
+D SAMD21 - UFBGA
+$ENDCMP
+#
 $CMP CY7C65632-28LTXCT
 D Cypress 4 Port USB 2.0 Hub
 F https://www.cypress.com/file/114101/download
