@@ -18,6 +18,11 @@ K SPI DSPI QSPI 8Mbit 2.3V
 F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
 $ENDCMP
 #
+$CMP GD25Q32CNIGR
+D FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 120MHz 8-USON (4x3) 
+K flash memory SPI
+$ENDCMP
+#
 $CMP MX25V1635FZUI
 D 16Mb Serial Flash Memory, Standard/Dual/Quad SPI
 K flash memory SPI
