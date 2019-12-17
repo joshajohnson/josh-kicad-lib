@@ -1,4 +1,4 @@
-(module Crystal_SMD_5032-2Pin_5.0x3.2mm (layer F.Cu) (tedit 5D134E4B)
+(module Crystal_SMD_5032-2Pin_5.0x3.2mm (layer F.Cu) (tedit 5DF95DCB)
   (descr "SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
   (tags "SMD SMT crystal")
   (attr smd)
@@ -28,8 +28,10 @@
   (fp_line (start 3.1 1.5) (end 3.1 -1.5) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3.1 -1.5) (end -3.1 -1.5) (layer F.CrtYd) (width 0.05))
   (fp_line (start 3 -1.5) (end 3 1.5) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -1.85 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.85 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -1.85 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin_ratio -0.2))
+  (pad 2 smd rect (at 1.85 0) (size 2 2.4) (layers F.Cu F.Paste F.Mask)
+    (solder_paste_margin_ratio -0.2))
   (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-oscillators/smdCrystal.step
     (offset (xyz 6.3 -1.1 0))
     (scale (xyz 1 1 0.7))
