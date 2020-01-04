@@ -1,4 +1,4 @@
-(module LED_0606 (layer F.Cu) (tedit 5E0B8F0D)
+(module LED_0606_E6C0606RGBC3UDA (layer F.Cu) (tedit 5E0B96D7)
   (attr smd)
   (fp_text reference REF** (at -2.225 0 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
