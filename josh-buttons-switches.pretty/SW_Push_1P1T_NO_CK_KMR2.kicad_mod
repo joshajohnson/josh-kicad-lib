@@ -1,4 +1,4 @@
-(module SW_Push_1P1T_NO_CK_KMR2 (layer F.Cu) (tedit 5DE79018)
+(module SW_Push_1P1T_NO_CK_KMR2 (layer F.Cu) (tedit 5E152F1F)
   (descr "CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf")
   (tags "tactile switch kmr2")
   (attr smd)
@@ -28,7 +28,7 @@
   (pad 2 smd rect (at -2.05 0.8) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 2.05 -0.8) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.05 0.8) (size 0.9 1) (layers F.Cu F.Paste F.Mask))
-  (model /media/josh/Dropbox/Projects/samd21-thing/josh-kicad-lib/packages3d/josh-buttons-switches/CK-KMR2.STEP
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-buttons-switches/CK-KMR2.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
