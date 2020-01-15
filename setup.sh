@@ -10,8 +10,8 @@ function replace_company()
     cat $1 | sed -e "s/$3/$4/g" > $2
 }
  
-if [ $# -ne 2 ]; then
-    echo "Usage: $0 <version> <project_name>" > /dev/stderr
+if [ $# -ne 3 ]; then
+    echo "Usage: $0 <version> <project_name> <company_name>" > /dev/stderr
     exit 1
 fi
  
@@ -19,8 +19,7 @@ ORIG_COMPANY="Josh Johnson"
  
 VERSION=$1
 NAME=$2
-# COMPANY=$3
-COMPANY="Josh Johnson"
+COMPANY=$3
  
 mkdir ../hardware
 cp -R template ../hardware/$VERSION
