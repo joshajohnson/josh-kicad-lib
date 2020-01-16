@@ -9,7 +9,7 @@ function replace_company()
  
     cat $1 | sed -e "s/$3/$4/g" > $2
 }
-
+ 
 if [ $# -ne 3 ]; then
     echo "Usage: $0 <version> <project_name> <company_name>" > /dev/stderr
     exit 1
@@ -31,5 +31,7 @@ replace_company ../hardware/$VERSION/template.kicad_pcb ../hardware/$VERSION/$NA
 rm ../hardware/$VERSION/template.kicad_pcb
 replace_company ../hardware/$VERSION/template.sch ../hardware/$VERSION/$NAME.sch "$ORIG_COMPANY" "$COMPANY"
 rm ../hardware/$VERSION/template.sch
+sed -i "s/VER_NO/$VERSION/" ../hardware/$VERSION/$NAME.*
+sed -i "s/DESIGN_TITLE/$NAME/" ../hardware/$VERSION/$NAME.*
  
 echo "+++ DONE"
