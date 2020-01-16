@@ -9,7 +9,7 @@ function replace_company()
  
     cat $1 | sed -e "s/$3/$4/g" > $2
 }
- 
+
 if [ $# -ne 3 ]; then
     echo "Usage: $0 <version> <project_name> <company_name>" > /dev/stderr
     exit 1

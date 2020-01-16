@@ -1,4 +1,4 @@
-17026180703952179
+17065664403483179
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75278,9 +75278,128 @@ BT_Small_2_Pin
 2
 2
 josh-buttons-switches
+MX_KEYSWITCH_ENCODER
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+5
+josh-buttons-switches
+MX_KEYSWITCH_ENCODER_RGB
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+11
+9
+josh-buttons-switches
+MX_KEYSWITCH_RGB
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_1.5U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_1.25U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_1.75U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2.5U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2.5U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2.25U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2.25U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2.75U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2.75U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+MX_KEYSWITCH_RGB_2U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-buttons-switches
+Panasonic_EVQPUL_EVQPUC
+http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
+SMD SMT SPST EVQPUL EVQPUC
+0
+4
+2
+josh-buttons-switches
+SW_Cherry_MX_1.00u_PCB
+Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
+Cherry MX keyswitch 1.00u PCB
+0
+2
+2
+josh-buttons-switches
 SW_Push_1P1T_NO_CK_KMR2
 CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
 tactile switch kmr2
+0
+4
+2
+josh-buttons-switches
+SW_Push_TL3330AF130QG
+
+
 0
 4
 2
@@ -75298,6 +75417,34 @@ Ultraminiature Surface Mount Slide Switch
 0
 7
 3
+josh-connectors
+AVR_Programmer_SMD
+
+
+0
+6
+6
+josh-connectors
+Castellated_P2.54
+
+
+0
+2
+1
+josh-connectors
+Castellated_P2.54x5
+
+
+0
+10
+5
+josh-connectors
+Castellated_P2.54x12
+
+
+0
+24
+12
 josh-connectors
 JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
 JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -75355,7 +75502,14 @@ USB_A_676432911_Molex
 6
 5
 josh-connectors
-USB_C_Receptacle_GT-USB-7010
+USB_C_TYPE-C-31-M-14
+USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
+USB C Type-C Receptacle SMD
+0
+20
+17
+josh-connectors
+USB_C_U262-161N-4BVC11
 USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
 USB C Type-C Receptacle SMD
 0
@@ -75474,7 +75628,7 @@ diode
 2
 2
 josh-led
-LED_0606
+LED_0606_E6C0606RGBC3UDA
 
 
 0
@@ -75628,6 +75782,13 @@ CDFN_3.2x2.5mm_XO
 4
 4
 josh-oscillators
+Crystal_SMD_3225-4Pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal
+0
+4
+4
+josh-oscillators
 Crystal_SMD_5032-2Pin_5.0x3.2mm
 SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
 SMD SMT crystal
@@ -75635,9 +75796,23 @@ SMD SMT crystal
 2
 2
 josh-passives-smt
+D_SOD-123FL
+D_SOD-123F
+D_SOD-123F
+0
+2
+2
+josh-passives-smt
 Ferrite_Bead_0603
 BLM18KG_S
 Ferrite Bead
+0
+2
+2
+josh-passives-smt
+Fuse_0603_1608Metric
+Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
