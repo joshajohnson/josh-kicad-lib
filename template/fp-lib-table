@@ -11,5 +11,5 @@
   (lib (name josh-soic-sot-etc)(type KiCad)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-soic-sot-etc.pretty)(options "")(descr ""))
   (lib (name josh-test-point)(type KiCad)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-test-point.pretty)(options "")(descr ""))
   (lib (name josh-display)(type KiCad)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-display.pretty)(options "")(descr ""))
-  (lib (name josh-keyboard)(type KiCad)(uri /mnt/530683E96DD773A1/Dropbox/Projects/cuddly-chainsaw/josh-kicad-lib/josh-keyboard.pretty)(options "")(descr ""))
+  (lib (name josh-keyboard)(type KiCad)(uri ${KIPRJMOD}/../../josh-kicad-lib/josh-keyboard.pretty)(options "")(descr ""))
 )
