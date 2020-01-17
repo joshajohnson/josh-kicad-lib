@@ -14,6 +14,11 @@ if [ $# -ne 3 ]; then
     echo "Usage: $0 <version> <project_name> <company_name>" > /dev/stderr
     exit 1
 fi
+
+if [ -d "../hardware/$VERSION" ]; then
+	echo "+++ Version exists, please enter unique version!"
+	exit 1
+fi
  
 ORIG_COMPANY="Josh Johnson"
  
