@@ -37,12 +37,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-buttons-switches/mx.STEP
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-keyboard/mx.STEP
     (offset (xyz 0 0 5.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
   )
-  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-buttons-switches/mxKeycap.STEP
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-keyboard/mxKeycap.STEP
     (offset (xyz -9 9 10))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

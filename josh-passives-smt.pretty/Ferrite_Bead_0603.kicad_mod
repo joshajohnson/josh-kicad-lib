@@ -1,5 +1,5 @@
-(module Ferrite_Bead_0603 (layer F.Cu) (tedit 5D1EFF98)
-  (descr BLM18KG_S)
+(module Ferrite_Bead_0603 (layer F.Cu) (tedit 5E2139B0)
+  (descr "ferrite bead 0603")
   (tags "Ferrite Bead")
   (attr smd)
   (fp_text reference FB1 (at 3.542 0.028) (layer F.SilkS)

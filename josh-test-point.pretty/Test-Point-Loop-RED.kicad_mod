@@ -1,4 +1,4 @@
-(module Test-Point-Loop-RED (layer F.Cu) (tedit 5D134FDD)
+(module Test-Point-Loop-RED (layer F.Cu) (tedit 5E213A9C)
   (fp_text reference REF** (at 0.7 2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

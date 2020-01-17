@@ -1,4 +1,5 @@
-(module featherwing-short (layer F.Cu) (tedit 5DD37788)
+(module featherwing-short (layer F.Cu) (tedit 5E2133FD)
+  (descr "featherwing 50mm long")
   (fp_text reference PCB** (at 0 1) (layer F.Fab)
     (effects (font (size 0.6 0.6) (thickness 0.1)))
   )
