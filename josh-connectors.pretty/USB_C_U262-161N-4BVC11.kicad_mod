@@ -1,4 +1,4 @@
-(module USB_C_U262-161N-4BVC11 (layer F.Cu) (tedit 5E2136A4)
+(module USB_C_U262-161N-4BVC11 (layer F.Cu) (tedit 5E214216)
   (descr "USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf")
   (tags "USB C Type-C Receptacle SMD")
   (fp_text reference REF** (at 0 -5.35) (layer F.SilkS)
