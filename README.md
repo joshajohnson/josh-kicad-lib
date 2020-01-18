@@ -48,5 +48,8 @@ Ensure all paths use the below text at the start of the path, as this keeps ever
 
 ``` ${KIPRJMOD}/../../josh-kicad-lib/...```
 
+### Common part details used in library
+`common-parts.xlsx` contains details for a bunch of the parts commonly used in this library / my designs, and can be used to make generating the bom files with MPN/DigiKey/LCSC/etc details easier.
+
 ### Thanks to the below people for use of their symbols / footprints / 3D models
 * [arturo182](https://twitter.com/arturo182) for the USB Type-C Connector.
