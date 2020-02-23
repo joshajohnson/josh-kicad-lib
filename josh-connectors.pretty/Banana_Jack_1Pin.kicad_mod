@@ -1,4 +1,4 @@
-(module Banana_Jack_1Pin (layer F.Cu) (tedit 5E393A1F)
+(module Banana_Jack_1Pin (layer F.Cu) (tedit 5E41B4B7)
   (descr "Single banana socket, footprint - 6mm drill")
   (tags "banana socket")
   (fp_text reference REF** (at 0 -6.5) (layer F.SilkS)
@@ -15,7 +15,7 @@
   (fp_circle (center 0 0) (end 4.85 0.05) (layer F.Fab) (width 0.1))
   (fp_circle (center 0 0) (end 5.5 0) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole circle (at 0 0) (size 10.16 10.16) (drill 6.1) (layers *.Cu *.Mask))
-  (model /mnt/530683E96DD773A1/Dropbox/Projects/infosect/josh-kicad-lib/packages3d/josh-connectors/banana-jack-red.STEP
+  (model ${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/banana-jack-red.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
