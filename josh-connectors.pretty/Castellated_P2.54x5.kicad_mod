@@ -1,4 +1,5 @@
-(module Castellated_P2.54x5 (layer F.Cu) (tedit 5E153528)
+(module Castellated_P2.54x5 (layer F.Cu) (tedit 5E2133E1)
+  (descr "5 x castellated hole, 2.54mm pitch")
   (fp_text reference REF** (at 1.38684 -1.63068) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

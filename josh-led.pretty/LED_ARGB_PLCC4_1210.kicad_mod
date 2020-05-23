@@ -1,4 +1,5 @@
-(module LED_ARGB_PLCC4_1210 (layer F.Cu) (tedit 5D4E1F51)
+(module LED_ARGB_PLCC4_1210 (layer F.Cu) (tedit 5E213866)
+  (descr "RGB LED PLCC 1210 package")
   (attr smd)
   (fp_text reference REF** (at -2.8 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))

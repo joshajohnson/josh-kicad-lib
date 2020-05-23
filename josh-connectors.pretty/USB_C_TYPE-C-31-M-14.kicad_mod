@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 (module USB_C_TYPE-C-31-M-14 (layer F.Cu) (tedit 5EC88B13)
   (descr "USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf")
   (tags "USB C Type-C Receptacle SMD")
+=======
+(module USB_C_TYPE-C-31-M-14 (layer F.Cu) (tedit 5E213688)
+  (descr "USB C Type-C Receptacle SMD sunk into PCB")
+>>>>>>> 131c545fa6176a006d6704f070522d70026eacbd
   (fp_text reference REF** (at 0 -5.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

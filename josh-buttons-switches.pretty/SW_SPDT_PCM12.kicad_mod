@@ -1,5 +1,5 @@
-(module SW_SPDT_PCM12 (layer F.Cu) (tedit 5D134B0C)
-  (descr "Ultraminiature Surface Mount Slide Switch")
+(module SW_SPDT_PCM12 (layer F.Cu) (tedit 5E213611)
+  (descr "CK Components Ultraminiature Surface Mount Slide Switch")
   (attr smd)
   (fp_text reference REF** (at 0 -3.2) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))

@@ -1,5 +1,5 @@
-(module JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal (layer F.Cu) (tedit 5DD37A55)
-  (descr "JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
+(module JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal (layer F.Cu) (tedit 5E21364D)
+  (descr "JST PH series connector, S2B-PH-SM4-TB mounding pads grounded")
   (tags "connector JST PH top entry")
   (attr smd)
   (fp_text reference REF** (at 0 -5.8) (layer F.SilkS)

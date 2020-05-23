@@ -1,4 +1,5 @@
-(module SLP3-150-150-F (layer F.Cu) (tedit 5D134DC5)
+(module SLP3-150-150-F (layer F.Cu) (tedit 5E2138DB)
+  (descr "Light pipe right angle PLCC4")
   (fp_text reference REF** (at 0.7232 -5.3848) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

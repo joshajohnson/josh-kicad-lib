@@ -6,7 +6,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
-$CMP LTD-5623Ax
+$CMP SEVEN_SEG_LTD-5623Ax
 D Double 7 segment LED common anode
 K display LED 7-segment
 $ENDCMP

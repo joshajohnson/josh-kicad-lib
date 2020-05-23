@@ -1,4 +1,4 @@
-17026180703270179
+17059522316256509
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75257,68 +75257,103 @@ varistor SIOV
 2
 2
 josh-buttons-switches
-BT_6mm_Tact
-Surface Mount Tactile Switch
-Tactile Switch
-0
-4
-2
-josh-buttons-switches
-BT_PTS815
-
-
-0
-4
-2
-josh-buttons-switches
-BT_Small_2_Pin
-
-
-0
-2
-2
-josh-buttons-switches
-SW_Push_1P1T_NO_CK_KMR2
+SW_Push_KMR2
 CK components KMR2 tactile switch http://www.ckswitches.com/media/1479/kmr2.pdf
 tactile switch kmr2
 0
 4
 2
 josh-buttons-switches
-SW_SPDT_JS202011SCQN
+SW_Push_PTS645
+CK Components 6mm x 6mm Surface Mount Tactile Switch
+Tactile Switch
+0
+4
+2
+josh-buttons-switches
+SW_Push_PTS815
+CK Components tactile switch
 
+0
+4
+2
+josh-buttons-switches
+SW_Push_PTS820
+CK Components small tactile switch
+
+0
+2
+2
+josh-buttons-switches
+SW_Push_PTS840
+CK Components right angle switch
+
+0
+4
+2
+josh-buttons-switches
+SW_Push_TL3330
+E-Switch tactile switch right angle
+
+0
+4
+2
+josh-buttons-switches
+SW_SPDT_JS20211SCQN
+CK Components slide switch vertical surface mount
 
 0
 6
 3
 josh-buttons-switches
 SW_SPDT_PCM12
-Ultraminiature Surface Mount Slide Switch
+CK Components Ultraminiature Surface Mount Slide Switch
 
 0
 7
 3
 josh-connectors
+AVR_PROG_2.54_SMT
+AVR Programmer 6 pogo pin 2.54 mm spacing
+
+0
+6
+6
+josh-connectors
+Castellated_P2.54
+Single castellated hole, 2.54mm pitch
+
+0
+2
+1
+josh-connectors
+Castellated_P2.54x5
+5 x castellated hole, 2.54mm pitch
+
+0
+10
+5
+josh-connectors
+Castellated_P2.54x12
+12 x castellated hole, 2.54mm pitch
+
+0
+24
+12
+josh-connectors
 JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
-JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+JST PH series connector, S2B-PH-SM4-TB mounding pads grounded
 connector JST PH top entry
 0
 4
 2
 josh-connectors
 PMOD_HOST
-Through hole angled socket strip, 2x06, 2.54mm pitch, 8.51mm socket length, double cols (from Kicad 4.0.7), script generated
-Through hole angled socket strip THT 2x06 2.54mm double row
+PMOD host connector
+
 0
 12
 12
-josh-connectors
-PinHeader_1x13_P2.54mm_Vertical_NOSILK
-Through hole straight pin header, 1x13, 2.54mm pitch, single row
-Through hole pin header THT 1x13 2.54mm single row
-0
-13
-13
 josh-connectors
 SAMTEC_FTSH-105-01-L-DV-R-TR
 surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows
@@ -75341,21 +75376,21 @@ SMA
 5
 2
 josh-connectors
-SOIC_clipProgSmall
-
-
-0
-8
-8
-josh-connectors
 USB_A_676432911_Molex
-
+Molex USB Type A Female connector
 
 0
 6
 5
 josh-connectors
-USB_C_Receptacle_GT-USB-7010
+USB_C_TYPE-C-31-M-14
+USB C Type-C Receptacle SMD sunk into PCB
+
+0
+20
+17
+josh-connectors
+USB_C_U262-161N-4BVC11
 USB TYPE C, RA RCPT PCB, SMT, https://github.com/arturo182/GT-USB-7010/raw/master/GT-USB-7010.pdf
 USB C Type-C Receptacle SMD
 0
@@ -75363,21 +75398,21 @@ USB C Type-C Receptacle SMD
 17
 josh-connectors
 USB_Micro_Aliexpress
-
+Micro USB Connector, DO NOT USE
 
 0
 11
 6
 josh-connectors
 featherwing-short
-
+featherwing 50mm long
 
 0
 28
 28
 josh-connectors
 featherwing-typeC
-
+featherwing long allows usb type c
 
 0
 30
@@ -75459,12 +75494,110 @@ josh-display
 0
 14
 14
-josh-led
-LED-APA102-2020
-http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
-LED RGB SPI
+josh-keyboard
+MX_KEYSWITCH
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
 0
-8
+2
+2
+josh-keyboard
+MX_KEYSWITCH_ENCODER
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+5
+josh-keyboard
+MX_KEYSWITCH_ENCODER_RGB
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+11
+9
+josh-keyboard
+MX_KEYSWITCH_RGB
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_1.5U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_1.25U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_1.75U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2.5U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2.5U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2.25U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2.25U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2.75U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2.75U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2U
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
+6
+josh-keyboard
+MX_KEYSWITCH_RGB_2U_REV_STABS
+Alps rotary encoder, EC12E... with switch, vertical shaft, mounting holes with circular drills, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+6
 6
 josh-led
 LED_0603_1608Metric_45_noSilk
@@ -75474,15 +75607,15 @@ diode
 2
 2
 josh-led
-LED_0606
-
+LED_0606_E6C0606RGBC3UDA
+0606 RGB Led suits https://datasheet.lcsc.com/szlcsc/1912111437_EKINGLUX-E6C0606RGBC3UDA_C375569.pdf
 
 0
 4
 4
 josh-led
 LED_ARGB_PLCC4_1210
-
+RGB LED PLCC 1210 package
 
 0
 4
@@ -75608,36 +75741,57 @@ josh-logo-11x4
 0
 josh-mechanical
 SLP3-150-150-F
-
+Light pipe right angle PLCC4
 
 0
 0
 0
 josh-oscillators
 ASTXR-12
-
+TCXO 19.2 MHZ
 
 0
 4
 4
 josh-oscillators
 CDFN_3.2x2.5mm_XO
+Oscilator suits Microchip DSC 6xxx series
 
-
+0
+4
+4
+josh-oscillators
+Crystal_SMD_3225-4Pin_3.2x2.5mm
+SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
+SMD SMT crystal reduced paste
 0
 4
 4
 josh-oscillators
 Crystal_SMD_5032-2Pin_5.0x3.2mm
 SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package
-SMD SMT crystal
+SMD SMT crystal reduced paste
+0
+2
+2
+josh-passives-smt
+D_SOD-123FL
+D_SOD-123F
+D_SOD-123F
 0
 2
 2
 josh-passives-smt
 Ferrite_Bead_0603
-BLM18KG_S
+ferrite bead 0603
 Ferrite Bead
+0
+2
+2
+josh-passives-smt
+Fuse_0603_1608Metric
+Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor
 0
 2
 2
@@ -75648,13 +75802,6 @@ resistor
 0
 2
 2
-josh-passives-smt
-HUSON-3-1EP_2x2mm_P1.3mm_EP1.1x1.6mm
-HUSON, 3 Pin, SOT1061 (Ref: https://assets.nexperia.com/documents/data-sheet/PMEG2020CPA.pdf)
-huson nolead SOT1061
-0
-4
-3
 josh-rf
 CD542
 
