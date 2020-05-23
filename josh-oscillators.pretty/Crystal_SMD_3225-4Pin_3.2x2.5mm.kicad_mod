@@ -1,4 +1,4 @@
-(module Crystal_SMD_3225-4Pin_3.2x2.5mm (layer F.Cu) (tedit 5E34C051)
+(module Crystal_SMD_3225-4Pin_3.2x2.5mm (layer F.Cu) (tedit 5E489943)
   (descr "SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package")
   (tags "SMD SMT crystal reduced paste")
   (attr smd)
