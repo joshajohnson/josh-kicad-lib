@@ -31,5 +31,7 @@ replace_company ../hardware/$VERSION/template.kicad_pcb ../hardware/$VERSION/$NA
 rm ../hardware/$VERSION/template.kicad_pcb
 replace_company ../hardware/$VERSION/template.sch ../hardware/$VERSION/$NAME.sch "$ORIG_COMPANY" "$COMPANY"
 rm ../hardware/$VERSION/template.sch
+sed -i "s/VER_NO/$VERSION/" $NAME.*
+sed -i "s/DESIGN_TITLE/$NAME/" $NAME.*
  
 echo "+++ DONE"
