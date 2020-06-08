@@ -11,4 +11,9 @@ D Double 7 segment LED common anode
 K display LED 7-segment
 $ENDCMP
 #
+$CMP SK6812-MINI-E
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+$ENDCMP
+#
 #End Doc Library
