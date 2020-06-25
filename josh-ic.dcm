@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AN48840B
+D Hall Effect Sensor
+$ENDCMP
+#
 $CMP ATSAMD21J18A
 D SAMD21 - TQFP / QFN
 $ENDCMP
