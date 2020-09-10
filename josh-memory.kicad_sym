@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "5.99.0-unknown-3ddee6503~102~ubuntu20.04.1")
-  (symbol "josh-memory:93C46B" (pin_names (offset 0.508))
+(kicad_symbol_lib (version 20200827) (generator kicad_symbol_editor)
+  (symbol "josh-memory:93C46B"
     (property "Reference" "U" (id 0) (at -7.366 9.144 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -51,7 +51,7 @@
       )
     )
   )
-  (symbol "josh-memory:AT25SF081-SSHD-X" (pin_names (offset 0.508))
+  (symbol "josh-memory:AT25SF081-SSHD-X"
     (property "Reference" "U" (id 0) (at -10.16 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -131,7 +131,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (symbol "josh-memory:GD25Q32CNIGR" (pin_names (offset 0.508))
+  (symbol "josh-memory:GD25Q32CNIGR"
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -197,7 +197,7 @@
       )
     )
   )
-  (symbol "josh-memory:MX25V1635FZUI" (pin_names (offset 0.508))
+  (symbol "josh-memory:MX25V1635FZUI"
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -278,7 +278,7 @@
     )
     (symbol "S27KL0641_0_1"
       (rectangle (start -10.16 19.05) (end 10.16 -19.05)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0)) (fill (type background))
       )
     )
     (symbol "S27KL0641_1_1"
@@ -380,7 +380,7 @@
       )
     )
   )
-  (symbol "josh-memory:W25Q128JVSIQ" (pin_names (offset 0.508))
+  (symbol "josh-memory:W25Q128JVSIQ"
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -446,7 +446,7 @@
       )
     )
   )
-  (symbol "josh-memory:W25Q32JVZP" (pin_names (offset 0.508))
+  (symbol "josh-memory:W25Q32JVZP"
     (property "Reference" "U" (id 0) (at -8.89 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
