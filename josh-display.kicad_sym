@@ -1,5 +1,5 @@
 (kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "TFT-1.8''" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "josh-display:TFT-1.8''" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "DS" (id 0) (at -10.16 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
