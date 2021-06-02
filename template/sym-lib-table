@@ -1,7 +1,7 @@
 (sym_lib_table
   (lib (name "josh-led")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-led.kicad_sym")(options "")(descr ""))
   (lib (name "josh-logic")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-logic.kicad_sym")(options "")(descr ""))
-  (lib (name "josh-mechnanical")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-mechnanical.kicad_sym")(options "")(descr ""))
+  (lib (name "josh-mechnanical")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-mechanical.kicad_sym")(options "")(descr ""))
   (lib (name "josh-memory")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-memory.kicad_sym")(options "")(descr ""))
   (lib (name "josh-oscillator")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-oscillator.kicad_sym")(options "")(descr ""))
   (lib (name "josh-passive")(type "KiCad")(uri "${KIPRJMOD}/../../josh-kicad-lib/josh-passive.kicad_sym")(options "")(descr ""))
