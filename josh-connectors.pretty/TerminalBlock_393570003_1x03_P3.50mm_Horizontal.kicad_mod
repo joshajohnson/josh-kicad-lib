@@ -1,5 +1,5 @@
-(footprint "TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 61504E2E)
+(footprint "TerminalBlock_393570003_1x03_P3.50mm_Horizontal" (version 20210925) (generator pcbnew) (layer "F.Cu")
+  (tedit 6162A452)
   (descr "Terminal Block Phoenix PT-1,5-3-3.5-H, 3 pins, pitch 3.5mm, size 10.5x7.6mm^2, drill diamater 1.2mm, pad diameter 2.4mm, see , script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
   (tags "THT Terminal Block Phoenix PT-1,5-3-3.5-H pitch 3.5mm size 10.5x7.6mm^2 drill 1.2mm pad 2.4mm")
   (attr through_hole)
@@ -61,4 +61,9 @@
   (pad "1" thru_hole rect locked (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 3b8e0301-6611-4442-ba43-ae56d9c55c41))
   (pad "2" thru_hole circle locked (at 3.5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 03ded86b-84e8-4053-8f34-59c28ce34106))
   (pad "3" thru_hole circle locked (at 7 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 24961513-83a5-4967-b3aa-68b9209f08c4))
+  (model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-connectors/393570003.stp"
+    (offset (xyz 3.5 -0.3 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 -180))
+  )
 )
