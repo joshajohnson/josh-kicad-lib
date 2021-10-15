@@ -9,6 +9,12 @@ function replace_company()
  
     cat $1 | sed -e "s/$3/$4/g" > $2
 }
+
+ORIG_COMPANY="Josh Johnson"
+ 
+VERSION=$1
+NAME=$2
+COMPANY=$3
  
 if [ $# -ne 3 ]; then
     echo "Usage: $0 <version> <project_name> <company_name>" > /dev/stderr
@@ -19,14 +25,16 @@ if [ -d "../hardware/$VERSION" ]; then
     echo "+++ Version exists, please enter unique version!"
     exit 1
 fi
- 
-ORIG_COMPANY="Josh Johnson"
- 
-VERSION=$1
-NAME=$2
-COMPANY=$3
- 
-mkdir ../hardware
+
+if [ -d "../hardware" ]; 
+    
+    then
+        :
+    
+    else
+        mkdir ../hardware
+fi
+
 cp -R template ../hardware/$VERSION
 for suffix in .kicad_prl .kicad_pro; do
     mv ../hardware/$VERSION/template${suffix} ../hardware/$VERSION/${NAME}${suffix}
