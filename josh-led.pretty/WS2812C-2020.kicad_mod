@@ -1,6 +1,6 @@
 (footprint "WS2812C-2020" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 612CCAE9)
+  (tedit 61D572AF)
   (property "LCSC" "C965556")
   (property "MPN " "WS2812C-2020")
   (property "Manufacturer" "Worldsemi")
@@ -24,8 +24,8 @@
   (pad "2" smd roundrect (at 0.9 -0.55) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e86c5d55-d68b-4073-965d-7dcc52c79353))
   (pad "3" smd roundrect (at -0.95 -0.55) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0a0fd5be-e7b2-43ae-9195-9d5873c1bab6))
   (pad "4" smd roundrect (at -0.95 0.55) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8606b0d8-3007-467b-bbcc-cd90d302faf3))
-  (model "/mnt/530683E96DD773A1/Dropbox/Projects/stubby/josh-kicad-lib/packages3d/josh-led/LED_WS2812_2020.step"
-    (offset (xyz -0.0000000000000001 -0 0))
+  (model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-led/LED_WS2812_2020.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
