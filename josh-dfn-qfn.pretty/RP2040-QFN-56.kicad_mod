@@ -1,6 +1,6 @@
 (footprint "RP2040-QFN-56" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D53BE2)
+  (tedit 6225DC51)
   (descr "QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
   (tags "QFN DFN_QFN")
   (attr smd)
@@ -102,7 +102,7 @@
   (pad "57" thru_hole circle (at -1.275 1.275) (size 0.6 0.6) (drill 0.35) (layers *.Cu) (tstamp adfa17fb-ecf3-4fc9-894b-0249683327ae))
   (pad "57" thru_hole circle (at 1.275 1.275) (size 0.6 0.6) (drill 0.35) (layers *.Cu) (tstamp c279ce41-85f8-48f6-8196-24f9b38cbf28))
   (pad "57" thru_hole circle (at 1.275 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu) (tstamp f28683ad-132c-41e2-8b69-45cf73d1c3f1))
-  (model "/media/josh/data/projects/sea-picro/josh-kicad-lib/packages3d/josh-ic/RP2040_QFN_PACKAGE.STEP"
+  (model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-ic/RP2040_QFN_PACKAGE.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
