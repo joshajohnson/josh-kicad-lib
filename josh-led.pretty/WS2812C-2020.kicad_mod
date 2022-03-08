@@ -1,11 +1,12 @@
 (footprint "WS2812C-2020" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6225DD69)
+  (tedit 6227214F)
   (property "LCSC" "C965556")
   (property "MPN " "WS2812C-2020")
   (property "Manufacturer" "Worldsemi")
   (property "Sheetfile" "stubby70.kicad_sch")
   (property "Sheetname" "")
+  (attr smd)
   (fp_text reference "D9" (at -0.6 -1.95 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a9f572ed-0f89-4f86-ba5b-d2e35840e68e)
