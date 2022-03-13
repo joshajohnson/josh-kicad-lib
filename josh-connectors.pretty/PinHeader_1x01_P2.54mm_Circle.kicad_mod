@@ -1,6 +1,6 @@
-(footprint "PinHeader_1x01_Circle" (version 20211014) (generator pcbnew)
+(footprint "PinHeader_1x01_P2.54mm_Circle" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 622DC748)
+  (tedit 622DCDAF)
   (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x01 2.54mm single row")
   (attr through_hole)
