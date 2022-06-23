@@ -16,6 +16,11 @@
     (effects (font (size 0.6 0.6) (thickness 0.09)))
     (tstamp bbc0c491-5dd1-4e21-aaf9-dc8510dec01f)
   )
+  (fp_poly (pts
+      (xy -0.25 0.7)
+      (xy 0.05 0.55)
+      (xy 0.05 0.85)
+    ) (layer "F.SilkS") (width 0.05) (fill solid) (tstamp f79e1d20-66db-4336-948c-7f90d5b1999a))
   (fp_line (start 1.7 1.5) (end 1.7 -1.5) (layer "F.CrtYd") (width 0.05) (tstamp 0451539e-4159-46d0-b2b3-232dee6cbb23))
   (fp_line (start -1.7 -1.5) (end -1.7 1.5) (layer "F.CrtYd") (width 0.05) (tstamp 339fba74-28eb-4cac-9f62-3d618e9bc567))
   (fp_line (start 1.7 -1.5) (end -1.7 -1.5) (layer "F.CrtYd") (width 0.05) (tstamp 5155c59b-23e1-488e-a14d-51b208572755))
