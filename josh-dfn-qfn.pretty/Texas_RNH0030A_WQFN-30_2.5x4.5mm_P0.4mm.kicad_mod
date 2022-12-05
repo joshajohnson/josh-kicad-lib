@@ -64,10 +64,10 @@
   (pad "28" smd oval (at 0 -2.2 90) (size 0.5 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e1f322e4-1839-4ea5-995e-87998458852c))
   (pad "29" smd oval (at -0.4 -2.2 90) (size 0.5 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b95923f5-faa5-4f70-89e4-ed3b8b7164b5))
   (pad "30" smd oval (at -0.8 -2.225 90) (size 0.45 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c931c13-eb4d-4a9b-b457-2c3a3c3dd590))
-  (pad "31" thru_hole circle (at 0 -1.3) (size 0.4 0.4) (drill 0.2) (layers *.Cu) (tstamp 583ee4de-c27d-446e-9a0b-f903b1bd5149))
-  (pad "31" thru_hole circle (at 0 1.3) (size 0.4 0.4) (drill 0.2) (layers *.Cu) (tstamp 9af99310-7093-4413-8fa0-b45e7fac7579))
+  (pad "31" thru_hole circle (at 0 -1.3) (size 0.5 0.5) (drill 0.2) (layers *.Cu) (tstamp 583ee4de-c27d-446e-9a0b-f903b1bd5149))
+  (pad "31" thru_hole circle (at 0 1.3) (size 0.5 0.5) (drill 0.2) (layers *.Cu) (tstamp 9af99310-7093-4413-8fa0-b45e7fac7579))
   (pad "31" smd roundrect (at 0 0) (size 1.2 3.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.2) (tstamp da7ee621-6400-41b9-827c-217043974b39))
-  (pad "31" thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.2) (layers *.Cu) (tstamp ff6acb69-b09e-4f98-8f0c-26473cd0a9f0))
+  (pad "31" thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.2) (layers *.Cu) (tstamp ff6acb69-b09e-4f98-8f0c-26473cd0a9f0))
   (model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-ic/RNH0030A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
