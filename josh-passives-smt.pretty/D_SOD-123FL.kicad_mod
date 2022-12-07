@@ -1,4 +1,5 @@
-(footprint "D_SOD-123FL" (version 20210126) (generator pcbnew) (layer "F.Cu")
+(footprint "D_SOD-123FL" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
   (tedit 6031D826)
   (descr "D_SOD-123F")
   (tags "D_SOD-123F")
@@ -33,11 +34,11 @@
   (fp_line (start -0.75 0) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp abc9db1e-dcf9-4339-953f-f3df838518fc))
   (fp_line (start 1.4 0.9) (end -1.4 0.9) (layer "F.Fab") (width 0.1) (tstamp c96306c5-159c-42c0-b731-b7f5e266076a))
   (fp_line (start -1.4 0.9) (end -1.4 -0.9) (layer "F.Fab") (width 0.1) (tstamp cd05ab8f-180f-449c-9786-0f198a765c46))
-  (pad "1" smd roundrect (at -1.5 0) (locked) (size 1.25 1.22) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
+  (pad "1" smd roundrect (at -1.5 0) (size 1.25 1.22) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
     (solder_paste_margin_ratio -0.1) (tstamp 04753552-4525-4243-93db-71c157810a4c))
-  (pad "2" smd roundrect (at 1.5 0) (locked) (size 1.25 1.22) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
+  (pad "2" smd roundrect (at 1.5 0) (size 1.25 1.22) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
     (solder_paste_margin_ratio -0.1) (tstamp 0a2ba9b3-e87d-4807-b180-fc2317e43a56))
-  (model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

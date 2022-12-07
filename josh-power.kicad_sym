@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20210619) (generator kicad_symbol_editor)
-  (symbol "josh-power:LP5912" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LP5912" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 11.43 0)
       (effects (font (size 1.2446 1.2446)))
     )
@@ -17,7 +17,8 @@
     )
     (symbol "LP5912_0_1"
       (rectangle (start -5.08 7.62) (end 5.08 -7.62)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LP5912_1_1"
@@ -51,7 +52,7 @@
       )
     )
   )
-  (symbol "josh-power:LV284X" (in_bom yes) (on_board yes)
+  (symbol "LV284X" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 8.89 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -66,7 +67,8 @@
     )
     (symbol "LV284X_0_1"
       (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-        (stroke (width 0.1524)) (fill (type background))
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "LV284X_1_1"
@@ -96,7 +98,7 @@
       )
     )
   )
-  (symbol "josh-power:MCP73832-4-OT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "MCP73832-4-OT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -7.62 6.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -120,7 +122,8 @@
     )
     (symbol "MCP73832-4-OT_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MCP73832-4-OT_1_1"
@@ -146,7 +149,7 @@
       )
     )
   )
-  (symbol "josh-power:MIC5366-1.8" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "MIC5366-1.8" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -164,7 +167,8 @@
     )
     (symbol "MIC5366-1.8_0_1"
       (rectangle (start -5.08 3.81) (end 6.35 -3.81)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "MIC5366-1.8_1_1"
@@ -186,7 +190,7 @@
       )
     )
   )
-  (symbol "josh-power:TLV755P" (in_bom yes) (on_board yes)
+  (symbol "TLV755P" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -2.54 6.35 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -201,7 +205,8 @@
     )
     (symbol "TLV755P_0_1"
       (rectangle (start -3.81 2.54) (end 5.08 -2.54)
-        (stroke (width 0.001)) (fill (type background))
+        (stroke (width 0.001) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TLV755P_1_1"
@@ -227,7 +232,7 @@
       )
     )
   )
-  (symbol "josh-power:TPS211x" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "TPS211x" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -242,7 +247,8 @@
     )
     (symbol "TPS211x_0_1"
       (rectangle (start -5.08 -1.27) (end 5.08 -16.51)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TPS211x_1_1"
@@ -284,7 +290,7 @@
       )
     )
   )
-  (symbol "josh-power:TPS709" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "TPS709" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -6.35 5.715 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -308,7 +314,8 @@
     )
     (symbol "TPS709_0_1"
       (rectangle (start -7.62 -5.08) (end 7.62 4.445)
-        (stroke (width 0.254)) (fill (type background))
+        (stroke (width 0.254) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TPS709_1_1"
@@ -330,7 +337,7 @@
       )
     )
   )
-  (symbol "josh-power:TVL755P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "TVL755P" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at -3.81 10.16 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -348,7 +355,8 @@
     )
     (symbol "TVL755P_0_1"
       (rectangle (start -5.08 6.35) (end 6.35 -7.62)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "TVL755P_1_1"
@@ -382,7 +390,59 @@
       )
     )
   )
-  (symbol "josh-power:VREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VIO" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VIO" (id 1) (at 0 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Power symbol creates a global label with name \"VIO\"" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "VIO_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+    (symbol "VIO_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "VIO" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "VREF" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -402,13 +462,17 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "VREF_0_1"
-      (circle (center 0 1.905) (radius 0.635) (stroke (width 0)) (fill (type none)))
       (polyline
         (pts
           (xy 0 0)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 1.905) (radius 0.635)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VREF_1_1"
