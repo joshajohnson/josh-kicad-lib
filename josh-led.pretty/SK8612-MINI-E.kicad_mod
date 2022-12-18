@@ -32,7 +32,7 @@
   (pad "" np_thru_hole circle (at -1.5 1.3) (size 0.65 0.65) (drill 0.65) (layers F&B.Cu *.Mask) (tstamp e4810f2a-0d9b-4fdd-938b-e2d750932e0c))
   (pad "1" smd roundrect (at -2.7 -0.7) (size 1.55 0.81) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp 5825bbfd-2cf4-4e58-b01b-e8fef3b84803))
   (pad "2" smd roundrect (at -2.7 0.66) (size 1.55 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp adcc57c9-5e68-40b0-b80d-2bbeb02ca6be))
-  (pad "3" smd rect (at 2.8 0.66) (size 1.55 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp e5eb3a36-676b-4cbc-b3de-23bb574e2332))
+  (pad "3" smd oval (at 2.8 0.66) (size 1.55 0.82) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp e5eb3a36-676b-4cbc-b3de-23bb574e2332))
   (pad "4" smd roundrect (at 2.8 -0.7) (size 1.55 0.81) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25) (tstamp c9b916d6-8654-45e4-99bb-5db781f0aba4))
   (model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-led/3228_reverse_mount_led.step"
     (offset (xyz -1.6 1.425 -1.5))
