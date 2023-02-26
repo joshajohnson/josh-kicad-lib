@@ -60,7 +60,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 1f6d6cc3-2775-4437-a7ac-0fcde542982f) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -74,7 +74,7 @@
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp de0d0b26-5dbb-4b0b-8931-3a9405d7e432) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
+    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
@@ -85,7 +85,7 @@
       )
     )
   )
-  (model "/media/data/projects/customkbd/wip/josh-kicad-lib/packages3d/josh-buttons-switches/SKQGAF.STEP"
+  (model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-buttons-switches/SKQGAF.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
