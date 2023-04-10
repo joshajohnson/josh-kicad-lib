@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210424) (generator pcbnew)
+(kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -52,14 +52,15 @@
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
-      (svguseinch false)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
       (svgprecision 6)
-      (excludeedgelayer true)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -86,23 +87,5 @@
   )
 
   (net 0 "")
-
-  (footprint "josh-logos:josh-details" (layer "B.Cu")
-    (tedit 5E2138AD) (tstamp 00000000-0000-0000-0000-00005ee129b0)
-    (at 192.6 201.8 180)
-    (property "DNP" "DNP")
-    (property "Sheetfile" "keyboard.kicad_sch")
-    (property "Sheetname" "")
-    (path "/00000000-0000-0000-0000-0000619339f3")
-    (attr through_hole)
-    (fp_text reference "LOGO2" (at -2.7 2.3) (layer "B.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-      (tstamp c390e3a3-217d-4c18-9382-bb3fe58042da)
-    )
-    (fp_text value "Josh-Details" (at 0 -3.7) (layer "B.Fab")
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-      (tstamp 34e2766f-08a5-4025-b372-12f000f8b4b2)
-    )
-  )
 
 )
