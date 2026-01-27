@@ -123,7 +123,7 @@
 		(uuid "92d02903-779f-4147-a745-ee1a3de9e2f3")
 	)
 	(fp_line
-		(start -2 19)
+		(start -2 15)
 		(end -2 14)
 		(stroke
 			(width 0.2)
@@ -133,17 +133,7 @@
 		(uuid "aa336232-61f7-45d6-bc94-6d1f862cad19")
 	)
 	(fp_line
-		(start -2 19)
-		(end 2 19)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e32a115e-2595-4bce-bc68-61d1e844c97c")
-	)
-	(fp_line
-		(start 2 19)
+		(start 2 15)
 		(end 2 14)
 		(stroke
 			(width 0.2)
@@ -221,6 +211,90 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5bbb7954-22d2-4c27-9f13-339c32399f8a")
+	)
+	(fp_line
+		(start -3.4 -3.3)
+		(end -3.4 -4.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e926d8a-c50a-472b-b8b9-056c9b9ce8a8")
+	)
+	(fp_line
+		(start -2.899999 -5.2)
+		(end 2.9 -5.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "34d43eb8-1021-4ed4-8d1e-965eed1257ad")
+	)
+	(fp_line
+		(start -2.899999 -2.8)
+		(end 2.9 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31bdbae8-cae3-4452-86cf-f3b2af06aad9")
+	)
+	(fp_line
+		(start 3.4 -3.3)
+		(end 3.4 -4.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c6451b95-9964-4932-86e0-7f0790863860")
+	)
+	(fp_arc
+		(start -3.4 -4.7)
+		(mid -3.253553 -5.053553)
+		(end -2.9 -5.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e015863-44b4-46e1-b27a-9b076599d066")
+	)
+	(fp_arc
+		(start -2.9 -2.8)
+		(mid -3.253553 -2.946447)
+		(end -3.4 -3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5980c9f-5852-4022-8b9b-46f0869ce454")
+	)
+	(fp_arc
+		(start 2.9 -5.2)
+		(mid 3.253553 -5.053553)
+		(end 3.4 -4.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4c92f449-e0b6-4285-bf4c-1967eddd52fb")
+	)
+	(fp_arc
+		(start 3.4 -3.3)
+		(mid 3.253553 -2.946447)
+		(end 2.9 -2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cbd93f2a-9aa7-47ef-8e80-ce769fdf0418")
 	)
 	(fp_line
 		(start -10 -8)
@@ -564,16 +638,16 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -4.5 -4)
-		(size 4 2.5)
+		(at -5 -4)
+		(size 3 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(solder_paste_margin_ratio -100)
 		(uuid "56fbd94c-85a0-4fba-a519-4a9ce495790a")
 	)
 	(pad "2" smd roundrect
-		(at 4.5 -4)
-		(size 4 2.5)
+		(at 5 -4)
+		(size 3 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(solder_paste_margin_ratio -100)
@@ -583,7 +657,7 @@
 	(model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-mechanical/MINI_4WD_MOTOR.stp"
 		(opacity 0.5600)
 		(offset
-			(xyz 0 3.25 13)
+			(xyz 0 3.25 12.3)
 		)
 		(scale
 			(xyz 1 1 1)
