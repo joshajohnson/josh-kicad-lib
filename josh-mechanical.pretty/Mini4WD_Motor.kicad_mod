@@ -657,7 +657,7 @@
 	(model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-mechanical/MINI_4WD_MOTOR.stp"
 		(opacity 0.5600)
 		(offset
-			(xyz 0 3.25 12.3)
+			(xyz 0 3.25 12.2)
 		)
 		(scale
 			(xyz 1 1 1)
