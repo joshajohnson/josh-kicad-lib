@@ -1,0 +1,269 @@
+(footprint "Sharp_GP2S60B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2s60_e.pdf")
+	(tags "refective opto couple photo coupler")
+	(property "Reference" "REF**"
+		(at 3.295 0 90)
+		(layer "F.SilkS")
+		(uuid "92e468a0-41bd-4ce1-ad1f-26e4f5d7c0d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SHARP_GP2S60B"
+		(at -3.205 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bb101d6b-bffb-4371-9b5d-384cba6e62b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b299fcc8-39db-4c10-8910-a2f274efb821")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c05fbc43-2121-4646-a526-7814a7ff4c0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -0.39)
+		(end -2.1 0.39)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5fe65a99-2b5e-4729-b7ea-ce890e8dcd0c")
+	)
+	(fp_line
+		(start -0.75 -1.15)
+		(end 0.75 -1.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "735eb39c-0434-46ce-9aee-fd81c4176e82")
+	)
+	(fp_line
+		(start -0.75 1)
+		(end 0.75 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9db08b31-f9ed-4dfb-8449-7a15ad988c6c")
+	)
+	(fp_poly
+		(pts
+			(xy -2.05 -1.1) (xy -2.33 -1.1) (xy -2.05 -1.38) (xy -2.05 -1.1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2c5fc6d3-0857-4fb2-9ad3-0bf3b1de4c94")
+	)
+	(fp_line
+		(start -2.1 -1.15)
+		(end 2.05 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6b26ac9-1d2f-4032-b092-458334afc3f0")
+	)
+	(fp_line
+		(start -2.1 1)
+		(end -2.1 -1.15)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d54bbd7-ac8b-4f59-b697-82e2ade5c6b7")
+	)
+	(fp_line
+		(start -2.1 1)
+		(end 2.05 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "91c20f46-5565-48d4-a510-e5165222f56d")
+	)
+	(fp_line
+		(start 2.05 -1.15)
+		(end 2.05 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "717ab557-0dcc-4ab0-8a6f-c225e4784f0c")
+	)
+	(fp_line
+		(start -1.8 -0.85)
+		(end 1.8 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "62e82c0e-94ef-42b3-847b-db9bf7f13582")
+	)
+	(fp_line
+		(start -1.8 0.75)
+		(end -1.8 -0.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f6f6f9d5-c1d7-4a01-8c0c-3bc1893a3695")
+	)
+	(fp_line
+		(start -1.8 0.75)
+		(end 1.8 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "90fe10fa-062e-4ab3-830d-647f7ae1ac2b")
+	)
+	(fp_line
+		(start 1.8 -0.85)
+		(end 1.8 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f2c389b3-f045-4990-b88c-77dc7aaad6e4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d552c8f1-da07-41d6-b89b-7065dc0b7850")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.35 -0.6)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.102)
+		(uuid "ce987ba5-d524-4a71-82ba-1e804f2e91ce")
+	)
+	(pad "2" smd roundrect
+		(at -1.35 0.5)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.102)
+		(uuid "017713a6-0353-412b-88a3-8a41cd09294a")
+	)
+	(pad "3" smd roundrect
+		(at 1.35 0.5)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.102)
+		(uuid "1a0564bd-2dac-4ed3-8a17-3c8f0171ef6b")
+	)
+	(pad "4" smd roundrect
+		(at 1.35 -0.6)
+		(size 1 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_mask_margin 0.102)
+		(uuid "10587cc7-2c20-412f-87c8-3d92858e5093")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "057b3d20-b758-444d-9a3a-2b0ef32d79ed")
+		(name "keepout to avoid short circuit")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.8 -0.25) (xy -0.8 -0.25) (xy -0.8 -0.9) (xy 0.8 -0.9) (xy 0.8 -0.25) (xy 1.85 -0.25) (xy 1.85 0.15)
+				(xy 0.8 0.15) (xy 0.8 0.8) (xy -0.8 0.8) (xy -0.8 0.15) (xy -1.8 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../josh-kicad-lib/packages3d/josh-led/GP2S60B.step"
+		(offset
+			(xyz 0 0.05 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
